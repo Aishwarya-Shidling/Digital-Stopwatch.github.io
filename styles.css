@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Stopwatch Container */
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+/* Stopwatch Display */
+#display {
+    font-size: 3rem;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Buttons */
+.buttons button {
+    border: none;
+    padding: 10px 20px;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+#startStopBtn {
+    background: #2ecc71;
+    color: white;
+}
+
+#startStopBtn:hover {
+    background: #27ae60;
+}
+
+#resetBtn {
+    background: #e74c3c;
+    color: white;
+}
+
+#resetBtn:hover {
+    background: #c0392b;
+}
